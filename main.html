@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Website</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="LIGHT BLUE.jpg" type="image/icon type">
+</head>
+
+<body>
+    <section class="header">
+        <!-- <div class="grid-container">
+            <img src="cet-logo.jpeg" alt="This is an image">
+        </div> -->
+        <nav>
+            <a href="Home.html"><img src="aimers logo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="Home.html">About us</a></li>
+                    <li><a href="Home.html">Job</a></li>
+                    <li><a href="registration.html">Register</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <section>
+            <div class="marq">
+                <marquee behaviour="" direction="left">Date of Registration for MHT-CET 2021 is Extented till 15 July
+                    2021
+                    without Late Fee
+                </marquee>
+            </div>
+        </section>
+        <div class="text-box">
+            <h1>Want a job?? find one here</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit temporibus nam unde <br> fugiat tempora
+                numquam maxime deleniti commodi porro odio iusto dolores, sapiente, facilis accusamus odit ad facere
+                quod!</p>
+            <a href="" class="hero-btn">Visit us to know more</a>
+        </div>
+    </section>
+
+    <!-- -------JOBS-------- -->
+   <section class="course">
+            <h2>Jobs Available</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, explicabo.</p>
+
+            <div class="row">
+                <div class="course-col">
+                    <h3>Degree</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum ipsum neque explicabo fuga repudiandae error eos totam rerum architecto sed? </p>
+                </div>
+                <div class="course-col">
+                    <h3>Degree</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum ipsum neque explicabo fuga repudiandae error eos totam rerum architecto sed? </p>
+                </div>
+                <div class="course-col">
+                    <h3>Degree</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum ipsum neque explicabo fuga repudiandae error eos totam rerum architecto sed? </p>
+                </div>                
+            </div>
+   </section>
+
+   <!-- ----------campus-------- -->
+   <section class="campus">
+       <h1>Our Global campus</h1>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, unde.</p>
+
+   </section>
+
+    <footer>
+        <h2>STATE COMMON ENTRANCE TEST CELL, MAHARASHTRA STATE</h2>
+        <p>8th Floor, New Excelsior Building, A.K.Nayak Marg, Fort, Mumbai-400001. (M.S.)</p>
+    </footer>
+
+
+    <!-- ------JavaScript for toggle menu ------ -->
+    <script>
+        var navLinks = document.getElementById("navLinks")
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>
